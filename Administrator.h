@@ -1,22 +1,34 @@
-//
-// Created by KAROL on 25.05.2024.
-//
-#ifndef ADMINISTRATOR_H
+﻿#ifndef ADMINISTRATOR_H
 #define ADMINISTRATOR_H
 
 #include <string>
-#include "Osoba.h"
+#include <vector>
+#include <utility>
+#include "produkt.h"
+#include "magazyn.h"
 
-class Administrator : public Osoba {
+class Administrator
+{
 private:
-    int Id;
-    std::string Imie;
+    std::vector<std::pair<std::string, std::string>> users;
+    //std::vector<Produkt> products;
+    std::string currentUser;
+    bool isLoggedIn;
+    Magazyn& magazyn;
+
 public:
-    Administrator(int id, std::string imie);
-    void ModyfikujProdukty();
-    void DodajProdukt();
-    void UsunProdukt();
-    void WyswietlProdukty() override;
+    Administrator(Magazyn& magazyn);
+
+    void AddUser(const std::string& username, const std::string& password);
+    bool ValidateUser(const std::string& username, const std::string& password);
+    void SetCurrentUser(const std::string& username);
+    void Logout();
+    bool IsUserLoggedIn() const;
+    std::string GetCurrentUser() const;
+
+    void AddProduct(const Produkt& product);
+    void DisplayProducts() const;
+    const std::vector<Produkt>& GetProducts() const;
 };
 
 #endif // ADMINISTRATOR_H

@@ -1,0 +1,13 @@
+# ninja log v5
+25	487	7384469225092306	CMakeFiles/implelemntacja.dir/produkt.cpp.obj	cd95498d0dbaf184
+1	551	7384469225745852	CMakeFiles/implelemntacja.dir/klient.cpp.obj	6fe592e92c116bc1
+18	565	7384469225891813	CMakeFiles/implelemntacja.dir/main.cpp.obj	96583e927958053
+7	669	7384469226918198	CMakeFiles/implelemntacja.dir/Administrator.cpp.obj	14034da5b9600139
+13	705	7384469227298363	CMakeFiles/implelemntacja.dir/koszyk.cpp.obj	15d5d902ada54530
+705	890	7384469229121021	implelemntacja.exe	70a481f95c19de93
+32	1182	7384858612148998	CMakeFiles/implelemntacja.dir/produkt.cpp.obj	cd95498d0dbaf184
+22	1449	7384858614823188	CMakeFiles/implelemntacja.dir/klient.cpp.obj	6fe592e92c116bc1
+49	1482	7384858615148639	CMakeFiles/implelemntacja.dir/main.cpp.obj	96583e927958053
+41	1550	7384858615842108	CMakeFiles/implelemntacja.dir/koszyk.cpp.obj	15d5d902ada54530
+10	1680	7384858617144267	CMakeFiles/implelemntacja.dir/Administrator.cpp.obj	14034da5b9600139
+1680	2181	7384858622104611	implelemntacja.exe	70a481f95c19de93

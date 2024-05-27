@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="implelemntacja"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="implelemntacja">
+				<Option output="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/implelemntacja" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 implelemntacja"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="implelemntacja/fast">
+				<Option output="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/implelemntacja" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 implelemntacja/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/Administrator.cpp">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/Administrator.h">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/klient.cpp">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/klient.h">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/koszyk.cpp">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/koszyk.h">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/main.cpp">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/produkt.cpp">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/produkt.h">
+			<Option target="implelemntacja"/>
+		</Unit>
+		<Unit filename="/mnt/d/studia/InzynieriaOprogramowania&apos;/PROJEKTI/implelemntacja/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

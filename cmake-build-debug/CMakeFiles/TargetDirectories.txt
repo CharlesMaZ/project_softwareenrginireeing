@@ -1,0 +1,3 @@
+D:/studia/InzynieriaOprogramowania'/PROJEKTI/implelemntacja/cmake-build-debug/CMakeFiles/implelemntacja.dir
+D:/studia/InzynieriaOprogramowania'/PROJEKTI/implelemntacja/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/studia/InzynieriaOprogramowania'/PROJEKTI/implelemntacja/cmake-build-debug/CMakeFiles/rebuild_cache.dir

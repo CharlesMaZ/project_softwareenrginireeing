@@ -1,29 +1,38 @@
-//
-// Created by KAROL on 25.05.2024.
-//
-#include "Koszyk.h"
+﻿#include "koszyk.h"
 #include <iostream>
 #include <algorithm>
 
-Koszyk::Koszyk(int id) : Id(id), CenaCalosc(0.0) {}
-
-void Koszyk::DodajProdukt(Produkt* produkt) {
-    ListaProduktow.push_back(produkt);
-    CenaCalosc += produkt->GetCena();
+void Koszyk::DodajProdukt(const Produkt& produkt) {
+    produkty.push_back(produkt);
 }
 
-void Koszyk::UsunProdukt(Produkt* produkt) {
-    auto it = std::find(ListaProduktow.begin(), ListaProduktow.end(), produkt);
-    if (it != ListaProduktow.end()) {
-        CenaCalosc -= (*it)->GetCena();
-        ListaProduktow.erase(it);
+void Koszyk::UsunProdukt(int productId) {
+    auto it = std::remove_if(produkty.begin(), produkty.end(), [productId](const Produkt& produkt) {
+        return produkt.GetId() == productId;
+    });
+    if (it != produkty.end()) {
+        produkty.erase(it, produkty.end());
+        std::cout << "Produkt usuniety z koszyka!" << std::endl;
+    } else {
+        std::cout << "Produkt o podanym ID nie znaleziony w koszyku." << std::endl;
     }
 }
 
-void Koszyk::WyswietlZawartosc() {
-    std::cout << "Koszyk zawiera:" << std::endl;
-    for (auto& produkt : ListaProduktow) {
-        std::cout << "Produkt: " << produkt->GetNazwa() << " Cena: " << produkt->GetCena() << std::endl;
+void Koszyk::WyswietlKoszyk() const {
+    for (const auto& produkt : produkty) {
+        produkt.Display();
+        std::cout << std::endl;
     }
-    std::cout << "Calkowita cena: " << CenaCalosc << std::endl;
+}
+
+double Koszyk::ObliczCene() const {
+    double total = 0.0;
+    for (const auto& produkt : produkty) {
+        total += produkt.GetCena();
+    }
+    return total;
+}
+
+void Koszyk::WyczyscKoszyk() {
+    produkty.clear();
 }

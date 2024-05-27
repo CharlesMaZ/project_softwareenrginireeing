@@ -1,20 +1,20 @@
-﻿#ifndef KOSZYK_H
-#define KOSZYK_H
+#ifndef MAGAZYN_H
+#define MAGAZYN_H
 
 #include <vector>
 #include "produkt.h"
 
-class Koszyk
+class Magazyn
 {
 private:
     std::vector<Produkt> produkty;
 
 public:
+    Magazyn();
     void DodajProdukt(const Produkt& produkt);
     void UsunProdukt(int productId);
-    void WyswietlKoszyk() const;
-    double ObliczCene() const;
-    void WyczyscKoszyk();
+    void WyswietlProdukty() const;
+    const std::vector<Produkt>& GetProducts() const;
 };
 
-#endif // KOSZYK_H
+#endif // MAGAZYN_H

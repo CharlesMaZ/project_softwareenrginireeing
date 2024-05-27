@@ -1,36 +1,29 @@
-//
-// Created by KAROL on 25.05.2024.
-//
-class Klient : public Osoba {
+﻿#ifndef KLIENT_H
+#define KLIENT_H
+
+#include "Administrator.h"
+#include "koszyk.h"
+#include "magazyn.h"
+
+class Klient
+{
 private:
-    int Id;
-    std::string Imie;
-    std::string Nazwisko;
-    int NumerKonta;
-    std::string Adres;
-    // Attribute1 placeholder, replace with actual type if known
-    int Attribute1;
-    Koszyk* koszyk;
+    Administrator admin;
+    Koszyk koszyk;
+    double saldo;
+
 public:
-    Klient(int id, std::string imie, std::string nazwisko, int numerKonta, std::string adres)
-            : Id(id), Imie(imie), Nazwisko(nazwisko), NumerKonta(numerKonta), Adres(adres), koszyk(nullptr) {}
-
-    void Szukaj() {
-        // Implement search logic
-        std::cout << "Szukaj" << std::endl;
-    }
-
-    void DodajDoKoszyka(Produkt* produkt);
-
-    void UsunZKoszyka(Produkt* produkt);
-
-    void Zaplac() {
-        // Implement payment logic
-        std::cout << "Zaplac" << std::endl;
-    }
-
-    void WyswietlProdukty() override {
-        // Implement product display logic
-        std::cout << "WyswietlProdukty" << std::endl;
-    }
+    Klient(Magazyn &magazyn);
+    void Rejestracja();
+    void Logowanie();
+    void Wylogowanie();
+    void DodajProdukt();
+    void WyswietlProdukty();
+    void DodajDoKoszyka(int productId);
+    void UsunZKoszyka(int productId);
+    void WyswietlKoszyk();
+    void DodajSaldo(double kwota);
+    void Zaplac();
 };
+
+#endif // KLIENT_H
